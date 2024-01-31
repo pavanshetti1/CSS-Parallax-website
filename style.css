@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    min-height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#ccc;  
+}
+
+.pimg1{
+    min-height:510px;
+    background-image: url("image1.png");
+}
+.pimg2{
+    min-height:300px;
+    background-image: url("image2.png");
+    text-align:center;
+}
+.pimg3{
+    min-height:300px;
+    text-align:center;
+    background-image: url("image3.png");
+}
+
+.pimg1, .pimg2, .pimg3{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translateX(-150px);
+    font-size:2rem;
+    padding:20px;
+    color:white;
+    text-transform:uppercase;
+    background-color:#030637;
+}
+
+.section{
+    margin:30px 40px;
+    text-align:center;
+    font-size:1.3rem;
+}
+
+.section h1{
+    margin-bottom:10px;
+    font-size: 2.5rem;
+}
+
+.ptext1{
+    position:relative;
+    top:130px;
+    font-size:2rem;
+    padding:20px;
+    color:white;
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, 0.275);
+}
+
+.section2{
+    background-color:#030637;
+    margin:0;
+    color:white;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.ptext4{
+    position:relative;
+    top:250px;
+    left:380px;
+    color:white;
+    font-size:2rem;
+    padding:20px;
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, 0.275);
+}
